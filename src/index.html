@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Website</title>
+</head>
+
+<body>
+    <!-- START OF NAVIGATIO BAR-->
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">TMovies</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item">Movie</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trends</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/profile.JPG" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- END OF NAVIGATION BAR -->
+    <!-- START OF SIDEBAR -->
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+    <!-- END OF SIDEBAR -->
+    <!-- START OF CONTAINER -->
+    <div class="container">
+        <!-- START OF CONTENT CONTAINER -->
+        <div class="content-container">
+            <div class="featured-content" style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515),url('img/winx.jpg');">
+                <h1 class="featured-title" style="font-family: 'Bungee Inline', cursive; color:black;">WONDER WOMAN '84 </h1>
+                <p class="featured-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <button class="featured-button">WATCH</button>
+            </div>
+
+            <!-- START OF MOVIE LIST CONTAINER 1 -->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <!-- START OF MOVIE LIST WRAPPER -->
+                <div class="movie-list-wrapper">
+                    <!-- START OF MOVIE LIST  -->
+                    <div class="movie-list">
+                        <!--List Item 1-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/101.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 1-->
+                        <!--List Item 2-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/20.jpg" alt="">
+                            <span class="movie-list-item-title">Joker</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 2-->
+                        <!--List Item 3-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13.jpg" alt="">
+                            <span class="movie-list-item-title">Ex Machina</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 3-->
+                        <!--List Item 4-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/24.jpg" alt="">
+                            <span class="movie-list-item-title">Radioactive</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 4-->
+                        <!--List Item 5-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/105.jpg" alt="">
+                            <span class="movie-list-item-title">Dunkirk</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 5-->
+                        <!--List Item 6-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small6.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 6-->
+                        <!--List Item 7-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small8.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 7-->
+                        <!--List Item 8-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small9.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 8-->
+                        <!--List Item 8-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small10.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 8-->
+                        <!--List Item 9-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small5.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 9-->
+                        <!--List Item 10-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small5.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 10-->
+                        <!--List Item 11-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small12.jpg" alt="">
+                            <span class="movie-list-item-title">The Wolf of Wall Street </span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 11-->
+                        <!--List Item 12-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small13.jpg" alt="">
+                            <span class="movie-list-item-title">Red Joan</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 12-->
+                    </div>
+                    <!-- END OF MOVIE LIST -->
+                    <i class="fas fa-chevron-right arrow"></i>
+                    <!-- END OF SLIDER -->
+                </div>
+                <!-- END OF MOVIE LIST WRAPPER -->
+            </div>
+            <!-- END OF MOVIE LIST CONTAINER 1 -->
+            <!-- START OF MOVIE LIST CONTAINER 2 -->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">RECOMMENDED </h1>
+                <!-- START OF MOVIE LIST WRAPPER -->
+                <div class="movie-list-wrapper">
+
+                    <!-- START OF MOVIE LIST -->
+                    <div class="movie-list">
+                        <!--List Item 1-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/101.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 1-->
+                        <!--List Item 2-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/20.jpg" alt="">
+                            <span class="movie-list-item-title">Joker</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 2-->
+                        <!--List Item 3-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13.jpg" alt="">
+                            <span class="movie-list-item-title">Ex Machina</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 3-->
+                        <!--List Item 4-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/24.jpg" alt="">
+                            <span class="movie-list-item-title">Radioactive</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 4-->
+                        <!--List Item 5-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/105.jpg" alt="">
+                            <span class="movie-list-item-title">Dunkirk</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 5-->
+                        <!--List Item 6-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small6.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 6-->
+                        <!--List Item 7-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small8.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 7-->
+                        <!--List Item 8-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small9.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 8-->
+                        <!--List Item 8-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small10.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 8-->
+                        <!--List Item 9-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small5.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 9-->
+                        <!--List Item 10-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small5.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 10-->
+                        <!--List Item 11-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small12.jpg" alt="">
+                            <span class="movie-list-item-title">The Wolf of Wall Street </span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 11-->
+                        <!--List Item 12-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small13.jpg" alt="">
+                            <span class="movie-list-item-title">Red Joan</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 12-->
+                    </div>
+                    <!-- END OF MOVIE LIST -->
+                    <i class="fas fa-chevron-right arrow"></i>
+                    <!-- END OF SLIDER -->
+                </div>
+                <!-- END OF MOVIE LIST WRAPPER -->
+            </div>
+            <!-- END OF MOVIE LIST CONTAINER 2 -->
+            <!-- START OF MOVIE LIST CONTAINER 3 -->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Top IMDb</h1>
+                <!-- START OF MOVIE LIST WRAPPER -->
+                <div class="movie-list-wrapper">
+
+                    <!-- START OF MOVIE LIST -->
+                    <div class="movie-list">
+                        <!--List Item 1-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/101.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 1-->
+                        <!--List Item 2-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/20.jpg" alt="">
+                            <span class="movie-list-item-title">Joker</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 2-->
+                        <!--List Item 3-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13.jpg" alt="">
+                            <span class="movie-list-item-title">Ex Machina</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 3-->
+                        <!--List Item 4-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/24.jpg" alt="">
+                            <span class="movie-list-item-title">Radioactive</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 4-->
+                        <!--List Item 5-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/105.jpg" alt="">
+                            <span class="movie-list-item-title">Dunkirk</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 5-->
+                        <!--List Item 6-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small6.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 6-->
+                        <!--List Item 7-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small8.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 7-->
+                        <!--List Item 8-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small9.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 8-->
+                        <!--List Item 8-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small10.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 8-->
+                        <!--List Item 9-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small5.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 9-->
+                        <!--List Item 10-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small5.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 10-->
+                        <!--List Item 11-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small12.jpg" alt="">
+                            <span class="movie-list-item-title">The Wolf of Wall Street </span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 11-->
+                        <!--List Item 12-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small13.jpg" alt="">
+                            <span class="movie-list-item-title">Red Joan</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 12-->
+                    </div>
+                    <!-- END OF MOVIE LIST -->
+                    <i class="fas fa-chevron-right arrow"></i>
+                    <!-- END OF SLIDER -->
+                </div>
+                <!-- END OF MOVIE LIST WRAPPER -->
+            </div>
+            <!-- END OF MOVIE LIST CONTAINER 3 -->
+            <!-- START OF FEATURED TV-SERIES -->
+            <div class="featured-content" style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515),url('img/abc.jpg');">
+                <h1 class="featured-title" style="font-family: 'Fredericka the Great', cursive; color: black;">The Umbrella Academy</h1>
+                <p class="featured-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <button class="featured-button">WATCH</button>
+            </div>
+            <!-- END OF FEATURED TV-SERIES -->
+            <!-- START OF MOVIE LIST CONTAINER 4 -->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">MOST REQUESTED</h1>
+                <!-- START OF MOVIE LIST WRAPPER -->
+                <div class="movie-list-wrapper">
+                    <!-- START OF MOVIE LIST -->
+                    <div class="movie-list">
+                        <!--List Item 1-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/101.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 1-->
+                        <!--List Item 2-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/20.jpg" alt="">
+                            <span class="movie-list-item-title">Joker</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 2-->
+                        <!--List Item 3-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13.jpg" alt="">
+                            <span class="movie-list-item-title">Ex Machina</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 3-->
+                        <!--List Item 4-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/24.jpg" alt="">
+                            <span class="movie-list-item-title">Radioactive</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 4-->
+                        <!--List Item 5-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/105.jpg" alt="">
+                            <span class="movie-list-item-title">Dunkirk</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 5-->
+                        <!--List Item 6-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small6.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 6-->
+                        <!--List Item 7-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small8.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 7-->
+                        <!--List Item 8-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small9.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 8-->
+                        <!--List Item 9-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small10.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 9-->
+                        <!--List Item 10-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small5.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 10-->
+                        <!--List Item 11-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small12.jpg" alt="">
+                            <span class="movie-list-item-title">The Wolf of Wall Street </span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 11-->
+                        <!--List Item 12-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small13.jpg" alt="">
+                            <span class="movie-list-item-title">Red Joan</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 12-->
+                    </div>
+                    <!-- END OF MOVIE LIST -->
+                    <i class="fas fa-chevron-right arrow"></i>
+                    <!-- END OF SLIDER -->
+                </div>
+                <!-- END OF MOVIE LIST WRAPPER -->
+            </div>
+            <!-- END OF MOVIE LIST CONTAINER 4 -->
+            <!-- START OF MOVIE LIST CONTAINER 5 -->
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">LATEST TV-SERIES</h1>
+                <!-- START OF MOVIE LIST WRAPPER -->
+                <div class="movie-list-wrapper">
+
+                    <!-- START OF MOVIE LIST -->
+                    <div class="movie-list">
+                        <!--List Item 1-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/101.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 1-->
+                        <!--List Item 2-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/20.jpg" alt="">
+                            <span class="movie-list-item-title">Joker</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 2-->
+                        <!--List Item 3-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13.jpg" alt="">
+                            <span class="movie-list-item-title">Ex Machina</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 3-->
+                        <!--List Item 4-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/24.jpg" alt="">
+                            <span class="movie-list-item-title">Radioactive</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 4-->
+                        <!--List Item 5-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/105.jpg" alt="">
+                            <span class="movie-list-item-title">Dunkirk</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 5-->
+                        <!--List Item 6-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small6.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 6-->
+                        <!--List Item 7-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small8.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 7-->
+                        <!--List Item 8-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small9.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 8-->
+                        <!--List Item 9-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small10.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 9-->
+                        <!--List Item 10-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small5.jpg" alt="">
+                            <span class="movie-list-item-title">Sparrow</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 10-->
+                        <!--List Item 11-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small12.jpg" alt="">
+                            <span class="movie-list-item-title">The Wolf of Wall Street </span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 11-->
+                        <!--List Item 12-->
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/small13.jpg" alt="">
+                            <span class="movie-list-item-title">Red Joan</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <!--End of list item 12-->
+                    </div>
+                    <!-- END OF MOVIE LIST -->
+                    <i class="fas fa-chevron-right arrow"></i>
+                    <!-- END OF SLIDER -->
+                </div>
+                <!-- END OF MOVIE LIST WRAPPER -->
+            </div>
+            <!-- END OF MOVIE LIST CONTAINER 5 -->
+        </div>
+        <!-- END OF CONTENT CONTAINER -->
+    </div>
+    <!-- END OF CONTAINER -->
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+.item-featured {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition-timing-function: steps(5);
+    /* transition-timing-function: linear;
+    transition-timing-function: ease;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-in-out;
+    transition-timing-function: ease-out;*/
+}
+
+.item-featured:hover {
+    width: 300px;
+}
+
+.item-featured:active {
+    height: 300px;
+}
+
+.container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    transition: all 1s ease;
+}
+
+.item:hover {
+    /* transform: translateX(50px);*/
+    /* transform: translate(60px, 60px);
+    transform: rotateX(50deg);
+    transform: scale(0.5);*/
+    transform: skewX(60deg);
+}
